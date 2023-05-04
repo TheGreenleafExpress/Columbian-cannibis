@@ -1,34 +1,69 @@
-/* Set the background color of the body to black */
-body {
-  background-color: black;
-}
-
-/* Set the text color to white everywhere */
+/* General styles */
 * {
-  color: white;
+  box-sizing: border-box;
 }
 
-/* Style the navigation bar */
-nav {
-  background-color: blue;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
-/* Style the buttons in the navigation bar */
-nav button {
-  border-radius: 50px; /* Make the buttons oval-shaped */
-  background-color: #1d2b42; /* Use a slightly darker shade of blue */
-  color: white;
+a {
+  color: #e67e22;
 }
 
-/* Style the heading */
-h1 {
-  text-align: center; /* Center the heading */
-  margin-top: 0; /* Remove any default margin */
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-/* Style the paragraph */
-p {
-  border-radius: 50%; /* Make the paragraph circular */
-  padding: 10px; /* Add some padding to the circular box */
-  background-color: #1d2b42; /* Use a slightly darker shade of blue */
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #e67e22;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #666;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #e67e22;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1528731990707-74bda28ebaef');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
