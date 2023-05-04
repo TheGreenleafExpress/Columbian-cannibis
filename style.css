@@ -1,0 +1,34 @@
+/* Set the background color of the body to black */
+body {
+  background-color: black;
+}
+
+/* Set the text color to white everywhere */
+* {
+  color: white;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: blue;
+}
+
+/* Style the buttons in the navigation bar */
+nav button {
+  border-radius: 50px; /* Make the buttons oval-shaped */
+  background-color: #1d2b42; /* Use a slightly darker shade of blue */
+  color: white;
+}
+
+/* Style the heading */
+h1 {
+  text-align: center; /* Center the heading */
+  margin-top: 0; /* Remove any default margin */
+}
+
+/* Style the paragraph */
+p {
+  border-radius: 50%; /* Make the paragraph circular */
+  padding: 10px; /* Add some padding to the circular box */
+  background-color: #1d2b42; /* Use a slightly darker shade of blue */
+}
