@@ -33,7 +33,14 @@
 type="range" min="0" max="20" step="0.5">
   <label><br></label>
 <button onclick="downloadFile()">Download MP4</button>
-function downloadFile() {
+
+</form>   
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+  function downloadFile() {
   var url = "./location (2)(1).mp4"; // Replace with the URL of the mp4 file
   var filename = "location.mp4"; // Replace with the desired filename
 
@@ -42,13 +49,6 @@ function downloadFile() {
   anchor.href = url;
   anchor.click();
 }
-</form>   
-  <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
-</body>
-<script>
-  
   </script>
 
 </html>
